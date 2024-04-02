@@ -9,6 +9,7 @@ int main(void){
 	}
 	
 	d = a[0];
+	e = a[0]
 	
 	for(int c=0;c<num;c++){
 		if(a[c]>=d)
