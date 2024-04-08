@@ -8,7 +8,7 @@ int main(void){
 		scanf("%d", &all);
 		if(all == 0)
 			sw = 1;
-		scanf("%d", &select); // 0, 0 입력해야지 프로그램 결과값 나옴 - 해결 방법 모르겠음 
+		scanf("%d", &select);
 		
 		switch(sw){
 			case 0:
