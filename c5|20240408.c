@@ -1,3 +1,4 @@
+//https://www.acmicpc.net/problem/9437
 #include<stdio.h>
 int main(void){
 	int a =0, all, select, sw=0;
