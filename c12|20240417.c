@@ -17,4 +17,5 @@ int main(void){
 	for(int b=1;b<repeat;b++)
 		total += (float)memory[b] / memory[0] * 100;
 	printf("%f", (total+memory[0])/repeat);
+	return 0;
 }
