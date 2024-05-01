@@ -1,3 +1,4 @@
+//https://www.acmicpc.net/problem/1929
 #include<stdio.h>
 #include<stdlib.h>
 #define except 1000001
