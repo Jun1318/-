@@ -1,3 +1,4 @@
+//https://www.acmicpc.net/problem/1347
 #include<stdio.h>
 int main(void){
 	int input, x=0, y=0, bigx=0, tinyx=0, bigy=0, tinyy=0, a, b=0;
