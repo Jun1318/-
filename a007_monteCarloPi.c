@@ -13,9 +13,7 @@ int main(){
 	for(int a=1;a<=100000000;a++){
 		x = rand()%50+1;
 		y = rand()%50+1;
-		if((x-r)*(x-r)+(y-r)*(y-r)<= r*r){
-			total++;
-		}
+		if((x-r)*(x-r)+(y-r)*(y-r)<= r*r)	total++;
 		if(compare(a))	printf("%d에서의 원주율 : %f\n", a, (float)total/a*4);
 	}
 }
