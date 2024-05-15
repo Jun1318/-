@@ -9,7 +9,7 @@ int main(void){
 	for(int a=0;count<person_num;a++){ // 0 < 7
 		roll = 0;
 		for(int b=0;b<start_num;){
-			(++present_num == person_num)? present_num = 0 : present_num = present_num;
+			(++present_num == person_num)? present_num = 0 : 0;
 			if(memory[present_num] == 0)	b++;
 			roll++;
 			if(roll > person_num)	break;
