@@ -21,10 +21,8 @@ int calculate(char* memory){
 		if(temp == NULL)	break;
 	}
 	for(int a=0;a<26;a++){
-		if(alpha[a]>0){
-			total_num++;
-			appear_num += alpha[a];
-		}
+		appear_num += alpha[a];
+		if(alpha[a]>0)	total_num++;
 	}
 	if(total_num == appear_num) return 1;
 	else return 0;
