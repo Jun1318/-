@@ -3,18 +3,18 @@
 #include<stdbool.h>
 int main(void){
 	bool memory[5000] = {0,};
-	int person_num, start_num, present_num,count=0, roll;
-	scanf("%d%*c%d", &person_num, &start_num); // 7 3
-	present_num = start_num-1; // 2 2
-	for(int a=0;count<person_num;a++){ // 0 < 7
-		roll = 0;
-		for(int b=0;b<start_num;){
-			(++present_num == person_num)? present_num = 0 : 0;
-			if(memory[present_num] == 0)	b++;
-			roll++;
-			if(roll > person_num)	break;
-		}
+	int total_num, pre_num, start_num, num, count=0;
+	scanf("%d %d%*c", &total_num, &start_num); // 7 3
+	pre_num = start_num; // 3 3
+	do{
+		printf("%d\t", pre_num); // 3
+		memory[pre_num-1] = true; // memory[2] = 1
+		num = 0; 
 		count++;
-		printf("%d%c", present_num+1, (a%15 == 14)?'\n':'\t');
-	}
+		for(int a=0;a<start_num;){
+			(++pre_num > total_num)? pre_num = 1 : 0;
+			if(memory[pre_num-1] == false)	a++;
+			if(++num > total_num*4)	break; 
+		}
+	}while(count < total_num);
 }
