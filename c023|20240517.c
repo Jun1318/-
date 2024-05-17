@@ -1,3 +1,4 @@
+//https://www.acmicpc.net/problem/10809
 #include<stdio.h>
 int main(void){
 	char input[100];
