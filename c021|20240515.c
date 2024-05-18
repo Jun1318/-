@@ -14,7 +14,7 @@ int main(void){
 		for(int a=0;a<start_num;){
 			(++pre_num > total_num)? pre_num = 1 : 0;
 			if(memory[pre_num-1] == false)	a++;
-			if(++num > total_num*4)	break; 
+			if(++num > total_num*start_num)	break; 
 		}
 	}while(count < total_num);
 }
