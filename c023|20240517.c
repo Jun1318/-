@@ -5,7 +5,7 @@ int main(void){
 	int alpha[26];
 	for(int a=0;a<26;a++)	alpha[a] = -1;		
 	scanf("%s%*c", input);
-	for(int a=0;input[a] != NULL;a++){
+	for(int a=0;input[a] != '\0;a++){
 		int temp = (int)input[a];
 		if(alpha[temp-97] == -1)	alpha[temp-97] = a; 
 	}
