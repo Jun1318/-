@@ -6,7 +6,7 @@ int main(void){
 	scanf("%s", input);
 	while(*p){
 		if(*p >= 'a')	alpha[*p++ - 'a']++;
-		else alpha[*p++ - 'a']++;
+		else alpha[*p++ - 'A']++;
 	}
 	for(int a=0;a<26;a++){
 		if(total<alpha[a]){
