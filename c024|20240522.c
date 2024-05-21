@@ -1,3 +1,4 @@
+//https://www.acmicpc.net/problem/1157
 #include<stdio.h>
 #define size 1000000
 int main(void){
