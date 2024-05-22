@@ -1,3 +1,4 @@
+//https://www.acmicpc.net/problem/10828
 #include <stdio.h>
 #include<string.h>
 #define size 100
