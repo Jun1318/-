@@ -33,4 +33,4 @@
 
 *****
 
-[Google][https://google.com, "go goggle"]
+[Google](https://google.com)
