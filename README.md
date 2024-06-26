@@ -35,4 +35,8 @@
 
 [Google](https://google.com)
 
-_감자감자 왕감자_
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~왕감자~~
