@@ -18,15 +18,20 @@
  
 감자
 
-'''
-while(1){
+<pre>
+ <code>
+  while(1){
  printf("왕감자");
-}
-'''
+  }
+ </code>
+</pre>
 
 
-'''c
-while(1){
+
+<pre>
+ <code>
+  while(1){
  printf("왕감자");
 }
-'''
+ </code>
+</pre>
