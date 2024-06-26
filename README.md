@@ -27,11 +27,4 @@
 </pre>
 
 
-
-<pre>
- <code>
-while(1){
- printf("왕감자");
-}
- </code>
-</pre>
+<hr/>
