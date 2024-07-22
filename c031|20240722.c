@@ -1,3 +1,4 @@
+//https://www.acmicpc.net/problem/3106
 #include<stdio.h>
 #define EM_MAX 300000
 
