@@ -4,7 +4,7 @@ int main(void){
 	int pnum =0, t[100001] ={0}, inum, temp;
 	
 	scanf("%d", &inum);
-	for(int i=0; i<inum; i++)	scanf("%d", &temp), t[temp]++ &1? pnum--: pnum++; // 값 입력받음과 동시에 해당 값의 개수 세기 - 짝수 개면 소수개수++, 홀수개면 소수개수--
+	for(int i=0; i<inum; i++)	scanf("%d", &temp), t[temp]++ &1? pnum--: pnum++; // 값 입력받음과 동시에 해당 값의 개수 세기 - 짝수 개면 홀수개수++, 홀수개면 소수개수--
 	
 	if(pnum)	printf("koosaga"); // 숫자 개수 중 홀수가 하나라도 존재하면 koosaga 출력
 	else printf("cubelover"); // else~~
